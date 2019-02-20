@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "custom_sample_ui": {
+      "commandName": "Project",
+      "launchUrl": "api/home",
+      "applicationUrl": "http://localhost:1905",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
