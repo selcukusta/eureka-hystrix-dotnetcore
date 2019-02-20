@@ -21,6 +21,7 @@ Repository has these applications;
 
 ```bash
 cd /eureka
+mvn -N io.takari:maven:wrapper
 ./mvnw spring-boot:run
 ```
 
