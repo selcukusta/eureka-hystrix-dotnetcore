@@ -13,7 +13,6 @@ Repository has these applications;
 ## Requirements:
 - JDK 1.8
 - Apache Maven 3.5.4
-- Docker
 - dotnet 2.1 
 
 ## Run
