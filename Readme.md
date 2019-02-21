@@ -50,7 +50,7 @@ dotnet run
 ## Tests
 Start UI application and run `while true; do sleep 1; curl -s http://localhost:1923/api/home;echo -e '\r';done` on terminal. *Note: API is not running yet!* 
 
-After executes less than 10 requests (circuitBreaker:RequestVolumeThreshold, default to 20) in 10 seconds (metrics:rollingStats:timeInMilliseconds, default to 10000 seconds), there won't be any decision to change the status. If fulfills the minimum threshold requirement and more than a given number of requests have failed (circuitBreaker:errorThresholdPercentage, default to 50), Hystrix will decide to open the Circuit Breaker.
+After executes less than 10 requests (circuitBreaker:RequestVolumeThreshold, default to 20) in 10 seconds (metrics:rollingStats:timeInMilliseconds, default to 10000 seconds), there won't be any decision to change the status. If fulfills the minimum threshold requirement and more than 80% of requests have failed (circuitBreaker:errorThresholdPercentage, default to 50), Hystrix will decide to open the Circuit Breaker.
 
 When you see 
 
