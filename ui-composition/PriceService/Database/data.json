@@ -1,0 +1,43 @@
+[{
+    "Id": 1,
+    "ProductId": 1,
+    "Amount": 1999,
+    "Currency": "₺"
+  },
+  {
+    "Id": 2,
+    "ProductId": 2,
+    "Amount": 2099,
+    "Currency": "₺"
+  },
+  {
+    "Id": 3,
+    "ProductId": 3,
+    "Amount": 349,
+    "Currency": "₺"
+  },
+  {
+    "Id": 4,
+    "ProductId": 4,
+    "Amount": 799,
+    "Currency": "₺"
+  },
+  {
+    "Id": 5,
+    "ProductId": 5,
+    "Amount": 199,
+    "Currency": "₺"
+  },
+  {
+    "Id": 6,
+    "ProductId": 6,
+    "Amount": 590,
+    "Currency": "₺"
+  },
+  {
+    "Id": 7,
+    "ProductId": 7,
+    "Amount": 650,
+    "Currency": "₺"
+  }
+]

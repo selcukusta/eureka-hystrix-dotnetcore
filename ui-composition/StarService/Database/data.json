@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "ProductId": 1,
+    "StarCount": 4
+  },
+  {
+    "Id": 2,
+    "ProductId": 2,
+    "StarCount": 3
+  },
+  {
+    "Id": 3,
+    "ProductId": 3,
+    "StarCount": 5
+  },
+  {
+    "Id": 4,
+    "ProductId": 4,
+    "StarCount": 2
+  },
+  {
+    "Id": 5,
+    "ProductId": 5,
+    "StarCount": 1
+  },
+  {
+    "Id": 6,
+    "ProductId": 6,
+    "StarCount": 4
+  },
+  {
+    "Id": 7,
+    "ProductId": 7,
+    "StarCount": 2
+  }
+]

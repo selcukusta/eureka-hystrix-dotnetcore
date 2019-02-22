@@ -1,0 +1,14 @@
+﻿@using Common
+@model Star
+@{
+    if(Model != null) {
+        var count = 0;
+        while(count < Model.StarCount)
+        { 
+            <span>✌️</span>
+            count++;
+        }
+    } else {
+        <span class="no-comment-warn"><i>Henüz hiç değerlendirme yok&nbsp;</i>🙁</span>
+    }
+}

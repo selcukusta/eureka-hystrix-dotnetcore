@@ -1,0 +1,6 @@
+﻿@model Common.Price
+@if(Model != null) {
+    <span>@Model.Amount.ToString("N2")</span> <span>@Model.Currency</span>
+} else {
+    <span> - </span>
+}

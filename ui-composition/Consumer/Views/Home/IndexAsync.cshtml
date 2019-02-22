@@ -1,0 +1,33 @@
+﻿@using Common
+@model IList<Product>
+<div class="row">
+    <div class="col-md-3">
+        <h4>Ürün Adı</h4>
+    </div>
+    <div class="col-md-3">
+        <h4>Kategori</h4>
+    </div>
+    <div class="col-md-3">
+        <h4>Fiyat</h4>
+    </div>
+    <div class="col-md-3">
+        <h4>Beğenilme</h4>
+    </div>
+</div>
+@foreach (var item in Model)
+{
+<div class="row">
+    <div class="col-md-3">
+        <h4>@item.ProductName</h4>
+    </div>
+    <div class="col-md-3">
+        <h4>@await Component.InvokeAsync("Category", new { categoryId = item.CategoryId })</h4>
+    </div>
+    <div class="col-md-3">
+       <h4>@await Component.InvokeAsync("Price", new { productId = item.Id })</h4>
+    </div>
+    <div class="col-md-3">
+        <h4>@await Component.InvokeAsync("Star", new { productId = item.Id })</h4>
+    </div>
+</div>
+}

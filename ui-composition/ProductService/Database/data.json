@@ -1,0 +1,36 @@
+[{
+    "Id": 1,
+    "ProductName": "HP 15-RA012NT Intel Celeron N3060 4GB 500GB Freedos 15.6 Taşınabilir Bilgisayar 3FY63EA",
+    "CategoryId": 1
+  },
+  {
+    "Id": 2,
+    "ProductName": "Lenovo Ideapad 330-15ICH Intel Core i7 8750H 16GB 1TB + 128GB SSD GTX1050 Windows 10 Home 15,6 FHD Taşınabilir Bilgisayar 81FK005NTX",
+    "CategoryId": 1
+  },
+  {
+    "Id": 3,
+    "ProductName": "Dell Gaming G315 Intel Core i5 8300H 8GB 1TB 128GB SSD GTX1050 Freedos 15.6 FHD Taşınabilir Bilgisayar",
+    "CategoryId": 1
+  },
+  {
+    "Id": 4,
+    "ProductName": "HP 15-BS154NT Intel Core i3 5005U 4GB 128GB SSD Windows 10 Home 15.6 Taşınabilir Bilgisayar 4UL32EA",
+    "CategoryId": 2
+  },
+  {
+    "Id": 5,
+    "ProductName": "I-Life Zed Air Intel Atom x5 Z8350 2GB 32GB eMMC Windows 10 Home 14.1 FHD Taşınabilir Bilgisayar IL-1406-232-BCTES",
+    "CategoryId": 2
+  },
+  {
+    "Id": 6,
+    "ProductName": "Apple MacBook Air Intel Core i5 5250U 8GB 256GB SSD MacOS Sierra 13.3 Taşınabilir Bilgisayar MQD42TU A",
+    "CategoryId": 3
+  },
+  {
+    "Id": 7,
+    "ProductName": "Apple MacBook Pro Intel Core i7 32 GB RAM",
+    "CategoryId": 1
+  }
+]
